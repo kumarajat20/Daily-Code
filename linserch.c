@@ -5,7 +5,15 @@ int linearSearch(int arr[], int size, int target, int index) {
     if (index >= size)  
         return -1;
 
-    else if (arr[index] == target) 
+    else if (arr[index] == target)        
+
+
+
+
+
+
+
+    
         return index;
 
     return linearSearch(arr, size, target, index + 1);
